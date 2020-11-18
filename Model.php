@@ -11,4 +11,8 @@ class Model{
 		//get data from db
 		return ['Maszk','Kesztyű','Cicatáp <3'];
 	}
+
+	function getProducts(){
+		
+	}
 }

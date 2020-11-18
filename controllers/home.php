@@ -5,6 +5,18 @@
 // ( $VIEWDATA already exists, we declared it in index.php )
 
 
-$VIEWDATA['productNames'] = $MODEL->getProductNames();
+$VIEWDATA['products'] = $MODEL->getProducts();
+
+$VIEWDATA['userdata'] =$MODEL->getUser();
+
+/*[
+	
+	1 => [
+		"name" => "név",
+		"description" => "Termék leirása"
+	]
+	...
+
+]*/
 
 include "views/home.php";
